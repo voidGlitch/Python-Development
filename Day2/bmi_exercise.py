@@ -1,0 +1,8 @@
+height = float(input("please enter your height\n in meters "))
+weight = float(input("please enter your weight\n in kg's "))
+print(type(height))
+print(type(weight))
+print("to claculate BMI the formulae is weight(kg) / height(m)^2 ")
+Bmi = weight / (height*height)
+print(type(Bmi))
+print(Bmi)
