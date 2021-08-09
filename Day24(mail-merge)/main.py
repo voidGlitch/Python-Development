@@ -10,6 +10,7 @@
 
 with open("E:\\python on udemy\\Day24(mail-merge)\\Input\\Names\\invited_names.txt") as name:
     all_names = name.readlines()
+    print(all_names)
     
     
 with open("E:\\python on udemy\\Day24(mail-merge)\\Input\\Letters\\starting_letter.txt",mode="r") as file:
